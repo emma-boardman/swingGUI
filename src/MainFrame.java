@@ -11,7 +11,6 @@ public class MainFrame extends JFrame {
 	private TextPanel textPanel;
 	private JButton btn;
 	
-	
 	public MainFrame(){
 		super("Hello World"); 
 		// equivalent to new JFrame("")
@@ -24,7 +23,7 @@ public class MainFrame extends JFrame {
 		btn.addActionListener(new ActionListener(){
 
 			public void actionPerformed(ActionEvent e) {
-//				textPanel.append("Hello\n");
+				textPanel.appendText("Hello\n");
 			}
 			
 			
